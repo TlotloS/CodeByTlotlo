@@ -39,7 +39,7 @@ export default function Experience({ color }) {
   const handleSelected = (value) => {
     setSelected(value);
   };
-
+  
   return (
     <>
       <Container maxW={"3xl"} id="experience">
@@ -107,7 +107,7 @@ export default function Experience({ color }) {
                       </Flex>
                     </CardBody>
                     <CardFooter>
-                      <HStack spacing={2}>
+                      <HStack spacing={1}>
                         {exp.badges.map((badge) => (
                           <Badge
                             key={badge.name}
